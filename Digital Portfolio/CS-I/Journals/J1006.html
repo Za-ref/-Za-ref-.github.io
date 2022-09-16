@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <body style=" background: linear-gradient(to bottom, #0099ff 0%, #99ff99 100%);">
+  <heading> :) 
+    <h1>Zaref Farhaan's Journal J1006</h1> 
+    <title>JOURNAL J1006</title>
+  </head>
+</html>
+<h3>Entries</h3>
+ Name: Zaref Farhaan
+<br>
+Journal: J1006 Date: 26-Aug-2022
+<br>
+I received assistance from: Abdulla Hassen 
+<br>
+ I assisted: Nobody
+<br>
+<h5>------------------------------------------------------------------------------------------------------------------------------------</h5>
+<h2>1.1: What is Git communicating to you?</h2>
+Who the author is, the date, and what just happened.
+<br>
+<h2>1.2: What do you see that is common between this git log command and the previous git commit?</h2>
+Both give general information about who added what file.
+<br>
+<h2>1.3: Why do you think this is?</h2>
+It keeps the organization nice and tidy along with good information. 
+<br>
+<h2>2.1: What do you notice about file1.txt and file2.txt? How are they displayed in git status?</h2>
+They are displayed in red,  and are said to be modified.
+<br>
+<h2>2.2: Are they both displayed in the same section? If not, why not?</h2>
+Both are 'untracked'; I'm assuming it's due to not doing something right, or maybe I'll learn the correct procedure down the road.
+<br>
+<h2>3: What do you notice about file1.txt and file2.txt? How are they displayed in git status?</h2>
+They are now green under "Changes to be Committed".
+<br>
+<h2>Compare and contrast the manner in which the two files are displayed.</h2>
+File1 is under modified, while File2 is under newfile.
+<br>
+<h2>4: How many files are listed as having been changed?</h2>
+2 files, File1 and File2
+<br>
+<h2>What are the specific differences listed for each file? In what color is the difference displayed?</h2>
+<h5>zaref-farhaan@codermerlin:~/Experiences/W1006$ git diff --cached
+diff --git a/file1.txt b/file1.txt
+index 6b9c267..08137b9 100644
+--- a/file1.txt
++++ b/file1.txt
+@@ -1 +1,2 @@
+This file isn't empty.
++"This is a new line."
+diff --git a/file2.txt b/file2.txt
+new file mode 100644
+index 0000000..44ec739
+--- /dev/null
++++ b/file2.txt
+@@ -0,0 +1 @@
++  "This is a new line in a new file."</h5>
+Differences are in greeen.
+<br>
+<h2>What does Git tell you has changed? Why?</h2>
+I may have done something wrong in 'git commit', but nothing changed for me in git diff/--cached.
+<br>
